@@ -1,4 +1,10 @@
 Microhood2::Application.routes.draw do
+  get "pages/home"
+
+  get "pages/profile"
+
+  get "pages/ideas"
+
   resources :ideas
 
   resources :users
