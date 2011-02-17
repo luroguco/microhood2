@@ -3,7 +3,7 @@ class CreateUsers < ActiveRecord::Migration
     create_table :users do |t|
       t.string :name
       t.string :email
-      t.integer :neighborhood_id
+      t.integer :location
       t.boolean :official
 
       t.timestamps

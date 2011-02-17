@@ -4,6 +4,8 @@ class CreateMicrohoods < ActiveRecord::Migration
       t.string :neighborhood
       t.integer :ward
       t.integer :precinct
+      t.integer :longitude
+      t.integer :latitude
 
       t.timestamps
     end

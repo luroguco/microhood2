@@ -8,13 +8,16 @@ class IdeasController < ApplicationController
       format.html # index.html.erb
       format.xml  { render :xml => @ideas }
     end
-  end
-
+    end
+ def add_rating
+   @idea = Idea.find(params[:rating])
+   Idea.increment_counter("rating", @ideas.id)
+ end
   # GET /ideas/1
   # GET /ideas/1.xml
+
   def show
     @idea = Idea.find(params[:id])
-
     respond_to do |format|
       format.html # show.html.erb
       format.xml  { render :xml => @idea }

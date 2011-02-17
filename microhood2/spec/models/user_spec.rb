@@ -79,6 +79,7 @@ end
   end
 end
 
+
 # == Schema Information
 #
 # Table name: users
@@ -86,7 +87,7 @@ end
 #  id                 :integer         not null, primary key
 #  name               :string(255)
 #  email              :string(255)
-#  neighborhood       :string(255)
+#  neighborhood_id    :integer
 #  official           :boolean
 #  created_at         :datetime
 #  updated_at         :datetime

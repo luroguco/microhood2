@@ -7,6 +7,8 @@ Microhood2::Application.routes.draw do
 
   get "pages/ideas"
 
+  get "pages/users"
+
   resources :ideas
 
   resources :users

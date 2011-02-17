@@ -15,7 +15,7 @@ ActiveRecord::Schema.define(:version => 20110217021205) do
   create_table "ideas", :force => true do |t|
     t.text     "description"
     t.integer  "rating"
-    t.string   "neighborhood_id"
+    t.string   "location"
     t.integer  "created_by_id"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -25,6 +25,8 @@ ActiveRecord::Schema.define(:version => 20110217021205) do
     t.string   "neighborhood"
     t.integer  "ward"
     t.integer  "precinct"
+    t.integer  "longitude"
+    t.integer  "latitude"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -32,7 +34,7 @@ ActiveRecord::Schema.define(:version => 20110217021205) do
   create_table "users", :force => true do |t|
     t.string   "name"
     t.string   "email"
-    t.integer  "neighborhood_id"
+    t.integer  "location"
     t.boolean  "official"
     t.datetime "created_at"
     t.datetime "updated_at"

@@ -30,17 +30,18 @@ class User < ActiveRecord::Base
   end
   
   def encrypt(string)
-    secure_hash("#{salt}--#{string}")
+    secure_hash(string)
     end
 
   def make_salt
-    secure_hash("#{Time.now.utc}--#{password}")
+    secure_hash(password)
     end
 
   def secure_hash(string)
     Digest::SHA2.hexdigest(string)
   end
 end
+
 
 # == Schema Information
 #
@@ -49,7 +50,7 @@ end
 #  id                 :integer         not null, primary key
 #  name               :string(255)
 #  email              :string(255)
-#  neighborhood       :string(255)
+#  neighborhood_id    :integer
 #  official           :boolean
 #  created_at         :datetime
 #  updated_at         :datetime
