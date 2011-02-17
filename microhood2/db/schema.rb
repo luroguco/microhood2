@@ -10,13 +10,21 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110216195720) do
+ActiveRecord::Schema.define(:version => 20110217021205) do
 
   create_table "ideas", :force => true do |t|
     t.text     "description"
     t.integer  "rating"
-    t.string   "neighborhood"
+    t.string   "neighborhood_id"
     t.integer  "created_by_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "microhoods", :force => true do |t|
+    t.string   "neighborhood"
+    t.integer  "ward"
+    t.integer  "precinct"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -24,7 +32,7 @@ ActiveRecord::Schema.define(:version => 20110216195720) do
   create_table "users", :force => true do |t|
     t.string   "name"
     t.string   "email"
-    t.string   "neighborhood"
+    t.integer  "neighborhood_id"
     t.boolean  "official"
     t.datetime "created_at"
     t.datetime "updated_at"

@@ -51,10 +51,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="schema.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="schema.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db/schema.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="28" selection-start="904" selection-end="904" vertical-scroll-proportion="0.0">
+            <state line="35" column="25" selection-start="1344" selection-end="1344" vertical-scroll-proportion="0.6689847">
               <folding />
             </state>
           </provider>
@@ -69,10 +69,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20110216044806_create_ideas.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="20110216044806_create_ideas.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/migrate/20110216044806_create_ideas.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="285" selection-end="285" vertical-scroll-proportion="0.3783032">
+            <state line="16" column="0" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -130,10 +130,10 @@
         <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
         <option value="$PROJECT_DIR$/app/models/idea.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
-        <option value="$PROJECT_DIR$/db/schema.rb" />
         <option value="$PROJECT_DIR$/app/views/users/_form.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20110216044650_create_users.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20110216044806_create_ideas.rb" />
+        <option value="$PROJECT_DIR$/db/schema.rb" />
       </list>
     </option>
   </component>
@@ -614,7 +614,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="866" extended-state="1" />
+    <frame x="0" y="0" width="1440" height="866" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -701,27 +701,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="7" selection-start="542" selection-end="542" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/idea.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="1" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="31" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="69" column="0" selection-start="1976" selection-end="1976" vertical-scroll-proportion="0.0">
@@ -743,9 +722,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/idea.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="28" selection-start="904" selection-end="904" vertical-scroll-proportion="0.0">
+        <state line="15" column="1" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20110216044806_create_ideas.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="31" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="7" selection-start="542" selection-end="542" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -757,9 +757,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20110216044806_create_ideas.rb">
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="285" selection-end="285" vertical-scroll-proportion="0.3783032">
+        <state line="35" column="25" selection-start="1344" selection-end="1344" vertical-scroll-proportion="0.6689847">
           <folding />
         </state>
       </provider>
