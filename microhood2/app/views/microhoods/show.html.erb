@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Neighborhood:</b>
+  <%= @microhood.neighborhood %>
+</p>
+
+<p>
+  <b>Ward:</b>
+  <%= @microhood.ward %>
+</p>
+
+<p>
+  <b>Precinct:</b>
+  <%= @microhood.precinct %>
+</p>
+
+
+<%= link_to 'Edit', edit_microhood_path(@microhood) %> |
+<%= link_to 'Back', microhoods_path %>

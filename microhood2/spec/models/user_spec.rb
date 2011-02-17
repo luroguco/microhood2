@@ -78,6 +78,7 @@ end
     end
   end
 end
+
 # == Schema Information
 #
 # Table name: users
@@ -86,6 +87,7 @@ end
 #  name               :string(255)
 #  email              :string(255)
 #  neighborhood       :string(255)
+#  official           :boolean
 #  created_at         :datetime
 #  updated_at         :datetime
 #  encrypted_password :string(255)

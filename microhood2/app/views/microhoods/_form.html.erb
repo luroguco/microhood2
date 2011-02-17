@@ -1,0 +1,29 @@
+<%= form_for(@microhood) do |f| %>
+  <% if @microhood.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@microhood.errors.count, "error") %> prohibited this microhood from being saved:</h2>
+
+      <ul>
+      <% @microhood.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :neighborhood %><br />
+    <%= f.text_field :neighborhood %>
+  </div>
+  <div class="field">
+    <%= f.label :ward %><br />
+    <%= f.text_field :ward %>
+  </div>
+  <div class="field">
+    <%= f.label :precinct %><br />
+    <%= f.text_field :precinct %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

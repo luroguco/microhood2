@@ -1,0 +1,27 @@
+<h1>Listing microhoods</h1>
+
+<table>
+  <tr>
+    <th>Neighborhood</th>
+    <th>Ward</th>
+    <th>Precinct</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @microhoods.each do |microhood| %>
+  <tr>
+    <td><%= microhood.neighborhood %></td>
+    <td><%= microhood.ward %></td>
+    <td><%= microhood.precinct %></td>
+    <td><%= link_to 'Show', microhood %></td>
+    <td><%= link_to 'Edit', edit_microhood_path(microhood) %></td>
+    <td><%= link_to 'Destroy', microhood, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Microhood', new_microhood_path %>

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110216205555) do
+ActiveRecord::Schema.define(:version => 20110216195720) do
 
   create_table "ideas", :force => true do |t|
     t.text     "description"
@@ -25,6 +25,7 @@ ActiveRecord::Schema.define(:version => 20110216205555) do
     t.string   "name"
     t.string   "email"
     t.string   "neighborhood"
+    t.boolean  "official"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "encrypted_password"

@@ -27,16 +27,8 @@
       <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="5" selection-start="994" selection-end="994" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1297893004328" expanded="true" signature="10:998" placeholder=" ... end" />
-                <marker date="1297893004328" expanded="true" signature="415:475" placeholder=" ... end" />
-                <marker date="1297893004328" expanded="true" signature="527:651" placeholder=" ... end" />
-                <marker date="1297893004328" expanded="true" signature="687:782" placeholder=" ... end" />
-                <marker date="1297893004328" expanded="true" signature="807:853" placeholder=" ... end" />
-                <marker date="1297893004328" expanded="true" signature="870:926" placeholder=" ... end" />
-                <marker date="1297893004328" expanded="true" signature="953:994" placeholder=" ... end" />
-              </folding>
+            <state line="13" column="31" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -62,7 +54,7 @@
       <file leaf-file-name="schema.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/schema.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="21" selection-start="1067" selection-end="1067" vertical-scroll-proportion="0.0">
+            <state line="17" column="28" selection-start="904" selection-end="904" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -71,7 +63,16 @@
       <file leaf-file-name="20110216044650_create_users.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/migrate/20110216044650_create_users.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0">
+            <state line="7" column="0" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20110216044806_create_ideas.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20110216044806_create_ideas.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="0" selection-start="285" selection-end="285" vertical-scroll-proportion="0.3783032">
               <folding />
             </state>
           </provider>
@@ -80,28 +81,8 @@
       <file leaf-file-name="user_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="0" selection-start="1909" selection-end="1909" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1297893004343" expanded="true" signature="36:2305" placeholder="do ... end" />
-                <marker date="1297893004343" expanded="true" signature="55:280" placeholder="do ... end" />
-                <marker date="1297893004343" expanded="true" signature="341:373" placeholder="do ... end" />
-                <marker date="1297893004343" expanded="true" signature="407:1069" placeholder="do ... end" />
-                <marker date="1297893004343" expanded="true" signature="443:549" placeholder="do ... end" />
-                <marker date="1297893004343" expanded="true" signature="606:704" placeholder="do ... end" />
-                <marker date="1297893004343" expanded="true" signature="743:886" placeholder="do ... end" />
-                <marker date="1297893004343" expanded="true" signature="924:1065" placeholder="do ... end" />
-                <marker date="1297893004343" expanded="true" signature="1104:2301" placeholder="do ... end" />
-                <marker date="1297893004343" expanded="true" signature="1125:1169" placeholder="do ... end" />
-                <marker date="1297893004343" expanded="true" signature="1223:1284" placeholder="do ... end" />
-                <marker date="1297893004343" expanded="true" signature="1328:1389" placeholder="do ... end" />
-                <marker date="1297893004343" expanded="true" signature="1427:1686" placeholder="do ... end" />
-                <marker date="1297893004343" expanded="true" signature="1479:1552" placeholder="do ... end" />
-                <marker date="1297893004343" expanded="true" signature="1610:1677" placeholder="do ... end" />
-                <marker date="1297893004343" expanded="true" signature="1722:2295" placeholder="do ... end" />
-                <marker date="1297893004343" expanded="true" signature="1782:1908" placeholder="do ... end" />
-                <marker date="1297893004343" expanded="true" signature="1973:2102" placeholder="do ... end" />
-                <marker date="1297893004343" expanded="true" signature="2162:2287" placeholder="do ... end" />
-              </folding>
+            <state line="69" column="0" selection-start="1976" selection-end="1976" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -124,10 +105,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/users/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="5" selection-start="1299" selection-end="1299" vertical-scroll-proportion="0.9512195">
+            <state line="39" column="28" selection-start="1061" selection-end="1061" vertical-scroll-proportion="-25.5">
               <folding />
             </state>
           </provider>
@@ -144,15 +125,15 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/db/migrate/20110216044806_create_ideas.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20110216044650_create_users.rb" />
         <option value="$PROJECT_DIR$/spec/models/user_spec.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20110216205555_remove_official_from_users.rb" />
-        <option value="$PROJECT_DIR$/db/schema.rb" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
         <option value="$PROJECT_DIR$/app/models/idea.rb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/db/schema.rb" />
         <option value="$PROJECT_DIR$/app/views/users/_form.html.erb" />
+        <option value="$PROJECT_DIR$/db/migrate/20110216044650_create_users.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20110216044806_create_ideas.rb" />
       </list>
     </option>
   </component>
@@ -633,7 +614,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="870" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="866" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -685,44 +666,10 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/migrate/20110216044806_create_ideas.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="30" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="45" column="0" selection-start="971" selection-end="971" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="0" selection-start="1909" selection-end="1909" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1297893004343" expanded="true" signature="36:2305" placeholder="do ... end" />
-            <marker date="1297893004343" expanded="true" signature="55:280" placeholder="do ... end" />
-            <marker date="1297893004343" expanded="true" signature="341:373" placeholder="do ... end" />
-            <marker date="1297893004343" expanded="true" signature="407:1069" placeholder="do ... end" />
-            <marker date="1297893004343" expanded="true" signature="443:549" placeholder="do ... end" />
-            <marker date="1297893004343" expanded="true" signature="606:704" placeholder="do ... end" />
-            <marker date="1297893004343" expanded="true" signature="743:886" placeholder="do ... end" />
-            <marker date="1297893004343" expanded="true" signature="924:1065" placeholder="do ... end" />
-            <marker date="1297893004343" expanded="true" signature="1104:2301" placeholder="do ... end" />
-            <marker date="1297893004343" expanded="true" signature="1125:1169" placeholder="do ... end" />
-            <marker date="1297893004343" expanded="true" signature="1223:1284" placeholder="do ... end" />
-            <marker date="1297893004343" expanded="true" signature="1328:1389" placeholder="do ... end" />
-            <marker date="1297893004343" expanded="true" signature="1427:1686" placeholder="do ... end" />
-            <marker date="1297893004343" expanded="true" signature="1479:1552" placeholder="do ... end" />
-            <marker date="1297893004343" expanded="true" signature="1610:1677" placeholder="do ... end" />
-            <marker date="1297893004343" expanded="true" signature="1722:2295" placeholder="do ... end" />
-            <marker date="1297893004343" expanded="true" signature="1782:1908" placeholder="do ... end" />
-            <marker date="1297893004343" expanded="true" signature="1973:2102" placeholder="do ... end" />
-            <marker date="1297893004343" expanded="true" signature="2162:2287" placeholder="do ... end" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -754,35 +701,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20110216044650_create_users.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="21" selection-start="1067" selection-end="1067" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="5" selection-start="994" selection-end="994" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1297893004328" expanded="true" signature="10:998" placeholder=" ... end" />
-            <marker date="1297893004328" expanded="true" signature="415:475" placeholder=" ... end" />
-            <marker date="1297893004328" expanded="true" signature="527:651" placeholder=" ... end" />
-            <marker date="1297893004328" expanded="true" signature="687:782" placeholder=" ... end" />
-            <marker date="1297893004328" expanded="true" signature="807:853" placeholder=" ... end" />
-            <marker date="1297893004328" expanded="true" signature="870:926" placeholder=" ... end" />
-            <marker date="1297893004328" expanded="true" signature="953:994" placeholder=" ... end" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="7" selection-start="542" selection-end="542" vertical-scroll-proportion="0.0">
@@ -797,6 +715,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="31" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="0" selection-start="1976" selection-end="1976" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="75" selection-end="75" vertical-scroll-proportion="-3.2692308">
@@ -806,7 +738,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="5" selection-start="1299" selection-end="1299" vertical-scroll-proportion="0.9512195">
+        <state line="39" column="28" selection-start="1061" selection-end="1061" vertical-scroll-proportion="-25.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="28" selection-start="904" selection-end="904" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20110216044650_create_users.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20110216044806_create_ideas.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="285" selection-end="285" vertical-scroll-proportion="0.3783032">
           <folding />
         </state>
       </provider>

@@ -3,7 +3,7 @@ class CreateIdeas < ActiveRecord::Migration
     create_table :ideas do |t|
       t.text :description
       t.integer :rating
-      t.string :neighborhood
+      t.string :neighborhood_id
       t.integer :created_by_id
 
       t.timestamps

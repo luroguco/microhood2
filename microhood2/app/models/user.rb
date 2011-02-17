@@ -1,6 +1,8 @@
 class User < ActiveRecord::Base
   has_many :ideas
 
+  validates_inclusion_of :official, :in => [true, false]
+
   attr_accessor :password
   attr_accessible :name, :email, :neighborhood, :official, :password, :password_confirmation
 
@@ -39,6 +41,7 @@ class User < ActiveRecord::Base
     Digest::SHA2.hexdigest(string)
   end
 end
+
 # == Schema Information
 #
 # Table name: users
@@ -47,6 +50,7 @@ end
 #  name               :string(255)
 #  email              :string(255)
 #  neighborhood       :string(255)
+#  official           :boolean
 #  created_at         :datetime
 #  updated_at         :datetime
 #  encrypted_password :string(255)

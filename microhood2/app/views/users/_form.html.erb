@@ -1,3 +1,4 @@
+<h1>Sign up</h1>
 <%= form_for(@user) do |f| %>
   <% if @user.errors.any? %>
     <div id="error_explanation">
@@ -18,40 +19,24 @@
   <div class="field">
     <%= f.label :email %><br />
     <%= f.text_field :email %>
+    </div>
+  <div class="field">
+    <%= f.label :password %><br />
+    <%= f.password_field :password %>
   </div>
   <div class="field">
+    <%= f.label :password_confirmation, "Confirmation" %><br />
+    <%= f.password_field :password_confirmation %>
+  </div>
+  <div class="combobox">
     <%= f.label :neighborhood %><br />
     <%= f.text_field :neighborhood %>
   </div>
-  <div class="field">
+  <div class="radiobuttons">
     <%= f.label :official %><br />
     <%= f.check_box :official %>
   </div>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit "Sign up"%>
   </div>
 <% end %>
-
-<h1>Sign up</h1>
-<%= form_for(@user) do |f| %>
-<div class="field">
-<%= f.label :name %><br />
-<%= f.text_field :name %>
-</div>
-<div class="field">
-<%= f.label :email %><br />
-<%= f.text_field :email %>
-</div>
-<div class="field">
-<%= f.label :password %><br />
-<%= f.password_field :password %>
-</div>
-<div class="field">
-<%= f.label :password_confirmation, "Confirmation" %><br />
-<%= f.password_field :password_confirmation %>
-</div>
-<div class="actions">
-<%= f.submit "Sign up" %>
-</div>
-<% end %>
-Let’s
