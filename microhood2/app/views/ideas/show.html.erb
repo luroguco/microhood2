@@ -11,10 +11,32 @@
 </p>
 
 <p>
-  <b>Neighborhood:</b>
-  <%= @idea.neighborhood %>
+  <b>location:</b>
+  <%= @idea.location %>
 </p>
 
+<h2>Comments</h2>
+<% @idea.comments.each do |comment| %>
+  <p>
+    <b>Commenter:</b>
+    <%= comment.user_id %>
+   <% end %>
+  </p>
+
+<h2>Add a comment:</h2>
+<%= form_for([@idea, @idea.comments.build]) do |f| %>
+  <div class="field">
+    <%= f.label :user_id %><br />
+    <%= f.text_field :user_id %>
+  </div>
+  <div class="field">
+    <%= f.label :body %><br />
+    <%= f.text_area :body %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
 
 <%= link_to 'Edit', edit_idea_path(@idea) %> |
 <%= link_to 'Back', ideas_path %>

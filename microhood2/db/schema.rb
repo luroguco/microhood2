@@ -10,16 +10,26 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110217021205) do
+ActiveRecord::Schema.define(:version => 20110217052008) do
+
+  create_table "comments", :force => true do |t|
+    t.integer  "user_id"
+    t.text     "body"
+    t.integer  "idea_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "ideas", :force => true do |t|
     t.text     "description"
     t.integer  "rating"
     t.string   "location"
-    t.integer  "created_by_id"
+    t.integer  "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  add_index "ideas", ["user_id"], :name => "index_ideas_on_user_id"
 
   create_table "microhoods", :force => true do |t|
     t.string   "neighborhood"

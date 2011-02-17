@@ -4,10 +4,11 @@ class CreateIdeas < ActiveRecord::Migration
       t.text :description
       t.integer :rating
       t.string :location
-      t.integer :created_by_id
+      t.integer :user_id
 
       t.timestamps
     end
+  add_index :ideas, :user_id
   end
 
   def self.down
